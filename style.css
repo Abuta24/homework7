@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    position: relative;
+    background-color: #19A1AE;
+    width: 1440px;
+    height: 720px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.circle{
+    width: 978px;
+    height: 976px;
+}
+
+.png2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box{
+    background-color: white;
+    border-radius: 15px;
+    width: 350px;
+    height: 374px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bg{
+    background-color: #19A1AE;
+    width: 350px;
+    height: 140px;
+    background-image: url(./assets/Oval\ Copy\ 24.png);
+    background-repeat: repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 1;
+}
+
+.avatar{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -48px);
+    border-radius: 92px;
+    border: 5px solid white;
+    width: 96px;
+    height: 96px;
+    margin-bottom: -24px;
+}
+
+.victor{
+    width: 104px;
+    height: 18px;
+    text-align: center;
+}
+
+
+#ae{
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7082;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.text1{
+    display: inline-flex;
+    padding: 0px 0.5px 5px 0px;
+    align-items: flex-start;
+    gap: 8.5px;
+}
+
+.london{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+h1{
+    color: #2E3349;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.line{
+    width: 350px; 
+    height: 1px;
+    background-color: #E8E9EC;
+    margin-top: 40px;
+}
+
+p{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin: 24px;
+}
